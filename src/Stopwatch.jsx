@@ -89,13 +89,16 @@ useEffect(() => {
       key={i}
       className="bubble"
       style={{
-        left: `${Math.random() * 100}%`,
-        animationDelay: `${Math.random() * 10}s`,
-        animationDuration: `${6 + Math.random() * 6}s`,
-        width: `${6 + Math.random() * 6}px`,
-        height: `${6 + Math.random() * 6}px`,
-        background: "rgba(239, 136, 173, 0.25)",
-      }}
+  left: `${Math.random() * 100}%`,
+  animationDelay: `${Math.random() * 8}s`,
+  animationDuration: isRunning
+    ? `${18 + Math.random() * 8}s`   // slower when running
+    : `${10 + Math.random() * 6}s`,  // normal when stopped
+
+  width: `${6 + Math.random() * 8}px`,
+  height: `${6 + Math.random() * 8}px`,
+  background: "rgba(239, 136, 173, 0.25)",
+}}
     />
   ))}
 </div>

@@ -6,16 +6,11 @@ This project focuses on UI/UX design, smooth animations, and real-world stopwatc
 ---
 
 ## 🌐 Live Demo
-👉 https://your-live-link-here
-
----
-
-## 📸 Preview
-*(Add screenshot here)*  
+👉 https://beamish-gelato-5d5823.netlify.app/
+ 
 ![Stopwatch Preview](./preview.jpeg)
 
 ---
-
 ## 🚀 Features
 
 - ⏱️ Accurate stopwatch with milliseconds precision
