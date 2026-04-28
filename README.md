@@ -1,4 +1,4 @@
-# ⏱️ Aesthetic Stopwatch Web App
+# ⏱️ Stopwatch Web Application (Task 2 – SCT_WD_2)
 
 A modern, interactive and fully responsive stopwatch web application built using React and Tailwind CSS.  
 This project focuses on UI/UX design, smooth animations, and real-world stopwatch functionality.
